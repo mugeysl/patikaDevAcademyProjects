@@ -3,13 +3,11 @@ import java.util.Scanner;
 public class TekBirSayiGirileneKadarSayilarinToplaminiHesaplayanProgram {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Lütfen bir sayı giriniz:");
-        int sayi = scan.nextInt();
         int toplam = 0;
 
-        while (sayi % 2 == 0) {
+        while (true) {
             System.out.print("Lütfen bir sayı giriniz:");
-            sayi = scan.nextInt();
+            int sayi = scan.nextInt();
 
             if (sayi % 2 != 0) {
                 break;
