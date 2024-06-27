@@ -5,7 +5,6 @@ public class KombinasyonHesaplayanProgram {
 //        C(n,r) = n! / (r! * (n-r)!)
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Kombinasyonunu almaka istediginiz sayilari giriniz:");
         System.out.print("n elemanı: ");
         int n = scan.nextInt();
 
